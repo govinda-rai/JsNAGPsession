@@ -11,8 +11,13 @@ if (true) {
 
 //console.log(a); //error
 console.log(b); //no error
- x=3;y=5; z=2;
-console.log(x>y&&x<z);
-console.log(x>y&x<z);
-console.log(3=='3');//checks only value
-console.log(3==='3');//checks value and type
+x = 3;
+y = 5;
+z = 2;
+console.log(x > y && x < z);
+console.log((x > y) & (x < z));
+console.log(3 == '3'); //checks only value
+console.log(3 === '3'); //checks value and type
+
+console.log(null == undefined);
+console.log(null === undefined);
