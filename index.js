@@ -18,6 +18,6 @@ console.log(x > y && x < z);
 console.log((x > y) & (x < z));
 console.log(3 == '3'); //checks only value
 console.log(3 === '3'); //checks value and type
-
+//tricky example
 console.log(null == undefined);
 console.log(null === undefined);
