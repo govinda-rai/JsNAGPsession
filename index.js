@@ -21,3 +21,19 @@ console.log(3 === '3'); //checks value and type
 //tricky example
 console.log(null == undefined);
 console.log(null === undefined);
+
+function tax() {
+  var a = 20;
+  var b = 30;
+  return function printabc() {
+    console.log(a, b);
+  };
+}
+tax()();
+
+function getValue() {
+  return { a: 'govinda', b: 1, c: 89, d: 'rai' };
+}
+
+console.log(getValue());
+{a,b,c,d}={1,2,3,4};
