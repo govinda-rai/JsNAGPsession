@@ -36,4 +36,15 @@ function getValue() {
 }
 
 console.log(getValue());
-{a,b,c,d}={1,2,3,4};
+//{a,b,c,d}={1,2,3,4};
+
+//setTimeout(() => alert('time'))
+//callback
+//callback's hell
+//promise
+Promise;
+
+//fetch api
+//async/await
+
+//jQuery
